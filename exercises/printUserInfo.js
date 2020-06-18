@@ -3,8 +3,8 @@ let process = require('process');
 // but we want to be able to treat a user as a single value.
 // That means the user has to be some kind of collection.
 
-// Here's one way we might do it using an array.
-
+// {} is an empty object, just like [] is an empty array
+// and just like '' is an empty string
 let user = {};
 
 user['firstName'] = '<Change This>';
