@@ -22,7 +22,9 @@ if (removeThisToStart) {
  * Creates and returns a new user (as an object).
  */
 function newUser(firstName, lastName, budget) {
-  let user = [];
+  // {} is an empty object, just like [] is an empty array
+  // and just like '' is an empty string
+  let user = {};
 
   user['firstName'] = firstName;
   user['lastName'] = lastName;
