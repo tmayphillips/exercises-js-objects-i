@@ -49,8 +49,6 @@ function newSofa(name, price) {
  */
 function userCanAffordSofa(user, sofa) {
   // This is your job. :)
-
-  return user['budget'] >= sofa['price'];
 }
 
 let allUsers = [
