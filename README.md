@@ -16,6 +16,7 @@ Exercises to practice common ways of using objects in JavaScript.
 
 1. Fork this repository
 1. Use `git clone` to clone your forked repository to your computer
+1. Run `npm install` in the project directory
 1. Create a new branch so you can ask for feedback
 1. Start working on the exercises in the `exercises/` directory
 1. Push your branch up to GitHub
