@@ -152,17 +152,21 @@ In general, the `person.firstName` syntax is what you'll see used most often. Ho
 2. The property name we're interested in is supplied dynamically. For example:
 
    ```javascript
-   let readlineSync = require('readlineSync');
+   let readlineSync = require('readline-sync');
 
    let user = {
      firstName: 'Jesse',
      lastName: 'Farmer',
    };
 
+   let availableProperties = Object.keys(user);
+   console.log(`Available properties: ${availableProperties.join(', ')}`);
+
    // Prompt the user, who would type something like 'firstName'
-   let dynamicPropertyName = readlineSync.question('What property do you want to see? ');
+   let dynamicPropertyName = readlineSync.question('What property do you want to see? ').trimEnd();
    let propertyValue = user[dynamicPropertyName];
 
+   console.log();
    console.log(`You wanted to see ${dynamicPropertyName}. The value is ${propertyValue}.`);
    ```
 
