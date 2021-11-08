@@ -7,10 +7,10 @@ let process = require('process');
 // and just like '' is an empty string
 let user = {};
 
-user['firstName'] = '<Change This>';
-user['lastName'] = '<Change This>';
-user['currentLocation'] = '<Change This>';
-user['favoriteSongs'] = ['One Song', 'Another Great Song', 'Last Great Song'];
+user['firstName'] = 'Tiffany';
+user['lastName'] = 'May-Phillips';
+user['currentLocation'] = 'Houston';
+user['favoriteSongs'] = ['Bye Bye Bye', 'Oops! I did it again', 'Genie in a Bottle'];
 user['age'] = 108;
 
 // To get started, set user['canBeDisplayed'] to true instead of false

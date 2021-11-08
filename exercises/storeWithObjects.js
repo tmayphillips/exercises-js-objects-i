@@ -9,7 +9,7 @@ let process = require('process');
 */
 
 // --- DELETE THE LINES STARTING HERE ---
-let removeThisToStart = true;
+let removeThisToStart = false;
 
 if (removeThisToStart) {
   console.log('Hey! Open up storeWithObjects.js to see how to get started.');
@@ -50,7 +50,7 @@ function newSofa(name, price) {
  * and `false` otherwise.
  */
 function userCanAffordSofa(user, sofa) {
-  // This is your job. :)
+  return user.budget >= sofa.price
 }
 
 let allUsers = [
